@@ -5,8 +5,8 @@ import time
 import pytest
 
 
-class TestRegistration:
-    def test_registration1(self, browser):
+class TestLanguage:
+    def test_check_language(self, browser):
         # open browser
         link = 'http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/'
         browser.get(link)
